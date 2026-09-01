@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/WozApi/.github/main/profile/logo.png" alt="" width="88" align="right">
+
 # WozApi
 
 **WOZ-waarde, BAG-adresgegevens en kadastrale percelen van elk Nederlands adres via 1
@@ -18,7 +20,7 @@ from wozapi import WozApi
 
 client = WozApi("jouw-api-key")
 adres = client.adres("Spuistraat 36C, 1012 TT Amsterdam")
-print(adres["wozWaarden"][0]["vastgesteldeWaarde"])
+print(adres["woz"][0]["vastgesteldeWaarde"])
 ```
 
 ## Waarom deze API bestaat
