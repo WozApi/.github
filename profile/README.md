@@ -27,8 +27,12 @@ print(adres["woz"][0]["vastgesteldeWaarde"])
 
 De officiële routes naar WOZ-data zijn voor de meeste bouwers gesloten:
 
-- De **WOZ API Bevragen** van het Kadaster is alleen voor gemeenten en vereist een OIN plus een
-  PKIoverheid-certificaat.
+- De **landelijke voorziening WOZ** levert alleen aan afnemers die de wet aanwijst: gemeenten,
+  waterschappen en de Belastingdienst, bestuursorganen met een wettelijke taak, en als derde
+  groep verzekeraars, hypotheekverstrekkers en door NRVT gecertificeerde validatie-instituten.
+  Bron: [artikel 37a Wet WOZ](https://wetten.overheid.nl/BWBR0007119/2024-01-01/0/HoofdstukVI/Artikel37a/)
+  en [Kadaster, WOZ voor afnemers](https://www.kadaster.nl/zakelijk/registraties/landelijke-voorzieningen/woz/woz-voor-afnemers),
+  gecontroleerd op 20 september 2026.
 - Het **WOZ-waardeloket** is een raadpleegsite zonder API en staat geautomatiseerd onttrekken
   niet toe.
 - **WOZ+** is een licentieproduct met een aansluittraject.
